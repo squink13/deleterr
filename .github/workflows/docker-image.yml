@@ -1,9 +1,9 @@
 name: Create and publish a Docker image to GitHub Packages
 
 on:
-  schedule:
-    # Nightly at 2:00 AM
-    - cron:  '0 2 * * *'
+  # schedule:
+  #   # Nightly at 2:00 AM
+  #   - cron:  '0 2 * * *'
   push:
     branches:
       - 'develop'
