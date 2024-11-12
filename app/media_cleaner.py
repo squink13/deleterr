@@ -833,7 +833,7 @@ def library_meets_disk_space_threshold(library, pyarr):
         folder_found = False
         for folder in disk_space:
             logger.info(
-                f"Folder path: '{folder["path"]}'"
+                f"Checking folder path: '{folder['path']}'"
             )
             if folder["path"] == path:
                 folder_found = True
